@@ -1,0 +1,9 @@
+name="tony stark";
+// console.log(name);
+// age=24;
+// console.log(age);
+// a=null;
+// y=undefined;
+// price=20.23;
+// isfollow=false;
+// isfollow=true;
