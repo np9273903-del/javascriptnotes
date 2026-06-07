@@ -22,8 +22,7 @@ event.addEventListener("click",()=>{
 
 const handler3=("click",()=>{
     console.log("button one was clicked handler3");
-    
-});
+    });
 
 
 event.removeEventListener("click",handler3);
