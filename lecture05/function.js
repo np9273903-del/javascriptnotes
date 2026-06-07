@@ -47,3 +47,5 @@ const mult = (a,b) =>{
 }
 let m=mult(2,3);
 console.log(m);
+
+
