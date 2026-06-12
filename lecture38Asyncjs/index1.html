@@ -1,0 +1,30 @@
+//start stop homework
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br></br>
+    <button id="start">Start</button>
+    <br></br>
+    <button id="stop">Stop</button>
+    <script>
+      let output=function(){
+        console.log("nikhil");
+        
+      };
+      let c;
+      document.querySelector("#start").addEventListener("click",function(){
+       c= setInterval(output,1000);
+      });
+      document.querySelector("#stop").addEventListener("click",function(){
+        clearInterval(c);
+        c=null;
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is javascript</h1>
+    <button id="stop">stop</button>
+    <script>
+   //1.setTimeout
+    let saynikhil=function(){
+        console.log("heyyyy");
+                            }
+    setTimeout(saynikhil,2000);
+    
+    let changetext=function(){
+        document.querySelector('h1').innerHTML="chai aur code"
+        
+    }
+   let changeme=setTimeout(changetext,3000);
+
+
+   //2.cleartimeout
+   //  clearTimeout(changeme)
+    document.querySelector("#stop").addEventListener("click",function(){
+         clearTimeout(changeme);
+         console.log("STOPPED");
+         console.log("done");
+         
+         
+    });
+
+
+
+    //3.setInterval
+    let into=function(){
+        console.log("hitesh");
+        
+    }
+    let intervalid=setInterval(into,1000);
+    
+    //4.clear interval
+      clearInterval(intervalid);
+       </script>
+</body>
+</html>
