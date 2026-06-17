@@ -25,3 +25,6 @@ let a=Arr.map((val,index)=>{
 
 console.log(a);
 
+
+
+

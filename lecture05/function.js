@@ -49,3 +49,8 @@ let m=mult(2,3);
 console.log(m);
 
 
+let para = document.querySelector("p");
+
+let classValue = para.getAttribute("class");
+
+console.log(classValue);
